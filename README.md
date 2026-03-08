@@ -1,6 +1,7 @@
 # Food Order System
 
 > 一個具備響應式設計 (RWD)、溫暖主題風格的線上點餐系統前端應用。
+> https://food-order-system-8tx.pages.dev/
 
 ## 🌟 專案簡介 (Overview)
 

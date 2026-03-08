@@ -82,7 +82,7 @@ const Menu: React.FC = () => {
                                         <CardMedia
                                             component="img"
                                             height="200"
-                                            image={`/src/assets/menu_image/${category.id}/${item.id}.png`}
+                                            image={`/menu_image/${category.id}/${item.id}.png`}
                                             alt={item.name}
                                             sx={{ objectFit: 'cover' }}
                                         />
@@ -142,7 +142,7 @@ const Menu: React.FC = () => {
                         <CardMedia
                             component="img"
                             height="300"
-                            image={`/src/assets/menu_image/${selectedItem.categoryId}/${selectedItem.id}.png`}
+                            image={`/menu_image/${selectedItem.categoryId}/${selectedItem.id}.png`}
                             alt={selectedItem.name}
                             sx={{ objectFit: 'cover' }}
                         />

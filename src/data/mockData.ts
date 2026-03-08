@@ -3,7 +3,6 @@ export interface FoodItem {
     name: string;
     description: string;
     price: number;
-    imageUrl?: string;
     categoryId: string;
 }
 
@@ -26,24 +25,21 @@ export const foodItems: FoodItem[] = [
         name: 'Classic Cheeseburger',
         description: 'Beef patty with cheddar cheese, lettuce, tomato, and our signature sauce.',
         price: 149,
-        categoryId: 'c1',
-        imageUrl: 'https://via.placeholder.com/150?text=Cheeseburger'
+        categoryId: 'c1'
     },
     {
         id: 'f2',
         name: 'Bacon Double Burger',
         description: 'Two beef patties with crispy bacon, melted cheese, and BBQ sauce.',
         price: 189,
-        categoryId: 'c1',
-        imageUrl: 'https://via.placeholder.com/150?text=Bacon+Burger'
+        categoryId: 'c1'
     },
     {
         id: 'f3',
         name: 'Veggie Burger',
         description: 'Plant-based patty with fresh avocado, spinach, and vegan mayo.',
         price: 159,
-        categoryId: 'c1',
-        imageUrl: 'https://via.placeholder.com/150?text=Veggie+Burger'
+        categoryId: 'c1'
     },
 
     // Pizzas
@@ -52,24 +48,21 @@ export const foodItems: FoodItem[] = [
         name: 'Margherita Pizza',
         description: 'Classic pizza with tomato sauce, fresh mozzarella, and basil.',
         price: 249,
-        categoryId: 'c2',
-        imageUrl: 'https://via.placeholder.com/150?text=Margherita'
+        categoryId: 'c2'
     },
     {
         id: 'f5',
         name: 'Pepperoni Pizza',
         description: 'Tomato sauce, mozzarella, and a generous amount of pepperoni.',
         price: 289,
-        categoryId: 'c2',
-        imageUrl: 'https://via.placeholder.com/150?text=Pepperoni'
+        categoryId: 'c2'
     },
     {
         id: 'f6',
         name: 'Vegetarian Pizza',
         description: 'Bell peppers, onions, mushrooms, black olives, and tomatoes.',
         price: 279,
-        categoryId: 'c2',
-        imageUrl: 'https://via.placeholder.com/150?text=Veggie+Pizza'
+        categoryId: 'c2'
     },
 
     // Drinks
@@ -78,23 +71,20 @@ export const foodItems: FoodItem[] = [
         name: 'Cola',
         description: 'Ice-cold classic cola.',
         price: 49,
-        categoryId: 'c3',
-        imageUrl: 'https://via.placeholder.com/150?text=Cola'
+        categoryId: 'c3'
     },
     {
         id: 'f8',
         name: 'Lemonade',
         description: 'Freshly squeezed lemonade with a hint of mint.',
         price: 59,
-        categoryId: 'c3',
-        imageUrl: 'https://via.placeholder.com/150?text=Lemonade'
+        categoryId: 'c3'
     },
     {
         id: 'f9',
         name: 'Iced Coffee',
         description: 'Chilled brewed coffee over ice with milk and sugar.',
         price: 89,
-        categoryId: 'c3',
-        imageUrl: 'https://via.placeholder.com/150?text=Iced+Coffee'
+        categoryId: 'c3'
     }
 ];

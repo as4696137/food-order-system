@@ -1,8 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
+import cartReducer from './cartSlice';
+import historyReducer from './historySlice';
 
 export const store = configureStore({
   reducer: {
-    // Add reducers here later
+    cart: cartReducer,
+    history: historyReducer,
   },
 });
 

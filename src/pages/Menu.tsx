@@ -125,7 +125,7 @@ const Menu: React.FC = () => {
             >
                 {selectedItem && (
                     <>
-                        <DialogTitle sx={{ m: 0, p: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <DialogTitle component="div" sx={{ m: 0, p: 2, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                             <Typography variant="h6" fontWeight="bold">
                                 {selectedItem.name}
                             </Typography>
